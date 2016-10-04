@@ -1,0 +1,31 @@
+# 互联网运营关键词
+转化率
+#AARRR模型
+# 获取用户 转化 提高留存 变现  传播
+## Acquisition
+## Activation
+## Retention
+## Revenue
+## Referral
+AARRR
+流量
+留存
+传播
+变现
+获取用户
+复购
+增购
+转化路径
+#月度订阅营业额 Monthly Recurring Revenue
+MRR
+# 客户流失率 CUSTOMER CHURN
+#客户身价 LTV = ARPA / 客户流失率（*ARPA 平均客月价）
+LTV
+
+#获客成本
+CAC
+# 运营的核心任务
+拉新
+促活
+留存
+
