@@ -1,0 +1,7 @@
+# 数据存储
+MySQL
+SQLite
+MongoDB
+Elasticsearch
+Redis
+Memcached

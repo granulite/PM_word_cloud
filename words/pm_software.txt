@@ -1,0 +1,16 @@
+Axure
+Xmind
+Sketch
+LaTeX
+Word
+Excel
+Powerpoint
+Keynote
+Email
+Photoshop
+R
+Python
+SQL
+HTML5
+JS
+CSS
