@@ -1,10 +1,9 @@
-# 4.wordcloud2函数说明
+# wordcloud2函数说明
 # wordcloud2(data, size = 1, minSize = 0, gridSize =  0,
 #            fontFamily = NULL, fontWeight = 'normal',
 #            color = 'random-dark', backgroundColor = "white",
 #            minRotation = -pi/4, maxRotation = pi/4, rotateRatio = 0.4,
 #            shape = 'circle', ellipticity = 0.65, widgetsize = NULL)
-# 
 # 常用参数：
 # （1）data：词云生成数据，包含具体词语以及频率；
 # （2）size：字体大小，默认为1，一般来说该值越小，生成的形状轮廓越明显；
@@ -17,7 +16,8 @@
 # （9）shape：词云形状选择，默认是‘circle’，即圆形。还可以选择‘cardioid’（苹果形或心形），‘star’（星形），‘diamond’（钻石），‘triangle-forward’（三角形），‘triangle’（三角形），‘pentagon’（五边形）；
 
 # 设置工作文件夹
-setwd("~/Dropbox/R/pm_wordcloud")
+
+setwd("/Users/Xiaoqiang/Documents/R/PM_wordcloud/words")
 
 # 创建函数，读取数据，并生成词频，词频根据频率来
 word_freq <- function(file = "pm_leve1.txt", freq = 20, x = 30){
@@ -30,7 +30,7 @@ word_freq <- function(file = "pm_leve1.txt", freq = 20, x = 30){
 
 ## 读取数据
 # 产品助理标题
-pm <- word_freq("pm.txt", 200)
+#pm <- word_freq("pm.txt", 200)
 word <- c("产品", "助理")
 freq_pm  <- 200
 freq  <- c(freq_pm, freq_pm)
@@ -128,15 +128,15 @@ library(wordcloud2)
 wordcloud2(data = data, 
            #letter = "R",
            #figPath = figPath,
-           size = 1,
+           size = 0.8,
            fontFamily = "微软雅黑", fontWeight = 'normal',
            minRotation = 0, maxRotation = 0, rotateRatio = 1,
-           shape = 'diamond',
-           #ellipticity = 0.666,
-           color = "lightgrey"
-           #color = "random-dark"
+           #shape = 'diamond',
+           ellipticity = 0.66,
+           #color = "lightgrey"
+           color = "random-light"
            )
-pdf("~/Desktop/file.pdf",width=6,height=4) 
-wordcloud2(demoFreq)
-wordcloud2(demoFreq, size = 2)
-dev.off()
+# pdf("~/Desktop/file.pdf",width=6,height=4) 
+# wordcloud2(demoFreq)
+# wordcloud2(demoFreq, size = 2)
+# dev.off()
